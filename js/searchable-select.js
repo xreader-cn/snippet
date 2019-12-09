@@ -1,6 +1,6 @@
 ///
 /// it need to use jquery contain function for case-senstive
-/// or use for case-sensitive
+/// or reference ./jquery-contains-case-insensitive.js for case-sensitive
 ///
 $('select').on("keydown", function (event) {
     if (event.key && event.key.length === 1) {
